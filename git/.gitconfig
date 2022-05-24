@@ -1,0 +1,13 @@
+[alias]
+	co = checkout
+	st = status
+        unstage = reset HEAD --
+        cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
+        a = "!git add -u && git status"
+[user]
+	name = Chad Schommer
+        email = chad.schommer@gmail.com
+[push]
+        default = current
+[core]
+        excludesfile = /Users/schommerc/.gitignore_global
