@@ -6,7 +6,6 @@
         a = "!git add -u && git status"
 [user]
 	name = Chad Schommer
-        email = chad.schommer@gmail.com
 [push]
         default = current
 [core]
